@@ -1,0 +1,47 @@
+Game
+|
+|-- Managers
+|   |-- GameManager
+|   |-- AudioManager (opcional)
+|
+|-- XR
+|   |-- XR Origin / XR Rig do VR Template
+|
+|-- Environment
+|   |-- SalaInicial
+|   |-- Corredor
+|   |-- Laboratorio
+|   |-- Biblioteca
+|   |-- SalaProfessor
+|   |-- Saida
+|
+|-- Puzzles
+|   |-- Puzzle01_Keypad
+|   |-- Puzzle02_Keypad
+|   |-- Puzzle03_Sequence
+|   |-- Puzzle04_ProfessorRoom
+|
+|-- Collectibles
+|   |-- Cartao01
+|   |-- Cartao02
+|   |-- Cartao03
+|
+|-- Professor
+|   |-- Model
+|   |-- Animator
+|   |-- ProfessorChaseSimple / WaypointMover
+|
+|-- Triggers
+|   |-- TriggerPrimeiraPerseguicao
+|   |-- TriggerSalaProfessor
+|   |-- TriggerFugaFinal
+|
+|-- UI
+|   |-- Objetivo
+|   |-- GameOver
+|   |-- Vitoria
+|
+|-- Audio
+|   |-- Ambiente
+|   |-- VozProfessor
+|   |-- MusicaPerseguicao
